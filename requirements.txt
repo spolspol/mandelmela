@@ -1,0 +1,12 @@
+# Mandelbrot perturbation renderer dependencies
+# Install with: pip install -r requirements.txt
+
+# Core
+pygame_ce          # Live preview window (community edition)
+numpy              # Vectorised array operations
+
+# Metal compute (macOS only)
+pyobjc-framework-Metal    # Metal GPU compute
+
+# Arbitrary precision
+mpmath             # Reference orbit computation for deep zooms
